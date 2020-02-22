@@ -1,0 +1,89 @@
+/* Developed by :
+                Swaroop Kumar Sahu
+                Production Engineering
+                IIC
+*/
+
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+    width: 100%;
+    
+}
+th{
+    padding: 15px;
+    background-color: black;
+    color: beige;
+    
+}
+
+td{
+    padding: 15px;
+}
+p{
+    font-family:sans-serif;
+    margin: 20px 20px;
+     white-space: nowrap;
+}
+#dp{
+    position: absolute;
+    right: 80px;
+    top: 130px;
+    border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+*{
+    background-color: cornsilk;
+    
+   
+}
+#profile,#qualities,#add,#you{
+     border-style: solid;
+    border-color: black;
+  padding: 50px;
+  margin: 20px;
+    outline-style: double;
+    outline-color: darkgray;
+}
+
+#train{
+    border-style: dotted;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    text-decoration: underline;
+     text-shadow: 1.5px 1.5px gray;
+}
+
+#li{
+     white-space: nowrap;
+}
+
+#fb{
+    position: absolute;
+    left: 700px;
+}
+
+#linkedin{
+    position: absolute;
+    left: 500px;
+    top: 2340px;
+}
+
+
+#hub{
+    position: absolute;
+    left: 300px;
+}
+
+#last{
+    text-align: left;
+    
+}
