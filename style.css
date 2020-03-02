@@ -7,7 +7,7 @@
 
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
     width: 100%;
     
@@ -15,12 +15,15 @@ table, th, td {
 th{
     padding: 15px;
     background-color: black;
-    color: beige;
+    color: azure;
+    
     
 }
 
 td{
     padding: 15px;
+    background-color:black;
+    color: azure;
 }
 p{
     font-family:sans-serif;
@@ -36,9 +39,9 @@ p{
   padding: 5px;
   width: 150px;
 }
-*{
-    background-color: cornsilk;
-    
+html{
+     background: url(ali-yahya-9zFa3XvxFx4-unsplash.jpg)  no-repeat center fixed;
+    background-size: cover;
    
 }
 #profile,#qualities,#add,#you{
@@ -48,6 +51,7 @@ p{
   margin: 20px;
     outline-style: double;
     outline-color: darkgray;
+    color: azure
 }
 
 #train{
@@ -55,6 +59,7 @@ p{
     border-color: black;
     padding: 10px;
     margin: 10px;
+    color:azure;
 }
 
 h1{
@@ -86,4 +91,7 @@ h1{
 #last{
     text-align: left;
     
+}
+#table1,#table2{
+    color: azure;
 }
