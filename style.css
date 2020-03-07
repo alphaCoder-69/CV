@@ -4,8 +4,6 @@
                 IIC
 */
 
-
-
 table, th, td {
   border: 1px solid white;
   border-collapse: collapse;
@@ -32,8 +30,8 @@ p{
 }
 #dp{
     position: absolute;
-    right: 80px;
-    top: 130px;
+    right: 300px;
+    top: 220px;
     border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
@@ -54,11 +52,12 @@ html{
     color: azure
 }
 
+
 #train{
+    
     padding: 10px;
     margin: 10px;
-    color:azure;
-}
+    color:azure;}
 
 h1{
     text-decoration: underline;
@@ -71,19 +70,18 @@ h1{
 
 #fb{
     position: absolute;
-    left: 700px;
+    left: 800px;
 }
-
 #linkedin{
     position: absolute;
-    left: 500px;
-    top: 2340px;
+    left: 600px;
+    
 }
 
 
 #hub{
-    position: absolute;
-    left: 300px;
+    position: relative;
+    left: 370px;
 }
 
 #last{
