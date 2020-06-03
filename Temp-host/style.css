@@ -1,0 +1,153 @@
+/*
+    DEVELOPED BY :-- 
+                SWAROOP KUMAR SAHU
+                  (alphaCoder-69)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*   CONTAINER    */
+.theme-body {
+    background-color: #111;
+    font-family: sans-serif;
+}
+
+/*   HEADING    */
+#heading {
+    color: #39ff14;
+    width: 12%;
+    font-size: 270%;
+    font-weight: 700;
+    margin: 10% auto;
+    cursor: default;
+}
+
+/*   ICONS   */
+.icons {
+    width: 20%;
+    margin-top: -8%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ion-icon {
+    font-size: 250%;
+    color: #39ff14;
+    cursor: pointer;
+}
+
+.moon {
+    float: right;
+    margin-left: -10%;
+    margin-top: -17%;
+    visibility: hidden;
+}
+
+.moon ion-icon {
+    color: deepskyblue;
+}
+
+
+/*   TOGGLER BUTTON    */
+.button {
+    position: absolute;
+    top: 45vh;
+    left: 43vw;
+    width: 15%;
+    height: 10%;
+    border: 5px solid #39ff14;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    outline: none;
+
+}
+
+/*   TOGGLER LIGHT BUTTON    */
+.light-button {
+    flex: 1;
+    height: 100%;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    color: #39ff14;
+    background-color: #111;
+}
+
+#light {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 200%;
+    cursor: pointer;
+}
+
+/*   TOGGLER DARK BUTTON    */
+.dark-button {
+    flex: 1;
+    height: 100%;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+    color: #39ff14;
+    background-color: #111;
+}
+
+#dark {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 200%;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+
+/*   MEDIA QUERIES   */
+
+/*   MAKING THE PAGE RESPONSIVE   */
+@media only screen and (max-width:576px) {
+    .button {
+        left: 33vw;
+        top: 55vh;
+        width: 35%;
+    }
+
+    #heading {
+        width: 30%;
+        margin: 25% auto;
+    }
+
+    .icons {
+        margin-top: -15%;
+        margin-left: 15%;
+    }
+    
+    .moon{
+        margin-right: -260%;
+        margin-top: -45%;
+}
+    
+
+}
+
+@media only screen and (max-width:480px) {
+    .button {
+        left: 30vw;
+        width: 43%;
+    }
+
+    #heading {
+        width: 35%;
+    }
+
+    .icons {
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+}
