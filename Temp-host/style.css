@@ -126,10 +126,10 @@ input[type="text"] {
 
 /* Making the app mobile responsive*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:768px) {
     .card {
         width: 90%;
-        margin: 50% auto 3% auto;
+        margin: 30% auto 3% auto;
     }
 
     .header {
