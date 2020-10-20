@@ -2,997 +2,438 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0 , shrink-to-fit=no">
 
-  <title>TBI VSSUT,Burla</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--      CSS FILES        -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/owl.carousel.min.css">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" type="text/css" href="vendors/css/owl.theme.default.min.css">
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="icons/css/ionicons.min.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="loader/css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <script>
-    window.onload = function () {
-      setTimeout(rt, 3000);
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/queries/media-querry.css">
 
-      function rt() {
-        var tyui = document.getElementById("preloader");
-        tyui.style.display = "none";
-      }
-    }
-  </script>
-  <style>
-  </style>
+    <title>Portfolio</title>
+
 </head>
 
-<body>
-  <div id="preloader" style="display: block;" class="contain">
-    <img src="loader/gif-preloader-11-min.gif"
-      style="position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);height: 250px;width: 334px"
-      class="img-fluid">
-  </div>
+<body onload="loadingfunc()">
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container d-flex">
-      <div class="contact-info mr-auto">
-        <img src="assets/img/WhatsApp%20Image%202020-09-19%20at%2010.02.35.jpeg">
-      </div>
-      <div class="cta">
-        <img src="assets/img/WhatsApp%20Image%202020-09-19%20at%2010.02.36.jpeg" style="width: 80px;height: 80px;">
-      </div>
-    </div>
-  </section>
+    <!------ LOADER ------->
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container d-flex">
+    
 
-      <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>TBI, VSSUT ASSIST</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#startups">Start&#45;Ups</a></li>
-          <li><a href="#partners">Partners</a></li>
-          <li><a href="#team">Team</a></li>
-          <!--          <li><a href="blog.html">Activities</a></li>-->
-          <li class="drop-down"><a href="">Projects</a>
-            <ul>
-              <li><a href="./others/agro-tech.html">Agro&#45;tech</a></li>
-              <li><a href="./others/healthcare.html">Healthcare</a></li>
-              <li><a href="./others/iot.html">IoT</a></li>
-              <li><a href="./others/space.html">Space</a></li>
-            </ul>
-          </li>
-          <li class="drop-down"><a href="">Labs</a>
-            <ul>
-              <li><a href="./others/bio-process.html">Bio-Process Lab</a></li>
-              <li><a href="./others/R&T_lab.html">R&D Lab</a></li>
-            </ul>
-          </li>
-          <li class="main-button" style="background-color: #1e90ff;transform: translateX(50%);"><a
-              style="color: antiquewhite;" href="#contact">Contact</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+        <!------ NAVIGATION BAR ------->
 
-    </div>
-  </header><!-- End Header -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <a class="navbar-brand" id="logo" href="https://github.com/alphaCoderR">$K$</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <!-- ======= Hero Section ======= 
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="container" data-aos="fade-in">
-      <h1>Welcome to Flexor</h1>
-      <h2>We are team of talanted designers making websites with Bootstrap</h2>
-      <div class="d-flex align-items-center">
-        <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      </div>
-    </div>
-  </section><!-- End Hero -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto navbar_pos">
+                    <li class="nav-item active">
+                        <a class="nav-link navigation_links" id="link-1" href="#about-me" data-text="About Me">About Me <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link navigation_links" id="link-2" href="#education" data-text="Education">Education <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link navigation_links" id="link-3" href="#skills" data-text="Skills">Skills <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link navigation_links" id="link-4" href="#projects" data-text="Projects">Projects <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link navigation_links btn-active" id="link-5" href="#contact-me"
+                            data-text="Contact Me">Contact Me
+                            <span class="sr-only">(current)</span></a>
+                    </li>
 
-  <!-- ======= Intro Section ======= -->
-  <section id="intro">
-    <div class="intro-container" data-aos="zoom-in" data-aos-delay="100">
-      <img src="assets/img/WhatsApp%20Image%202020-09-19%20at%2010.02.35.jpeg">
-      <img src="assets/img/WhatsApp%20Image%202020-09-19%20at%2010.02.36.jpeg">
-      <h1 class="mb-4 pb-0"><br><span>Technology Business</span> Incubator</h1>
-      <p class="mb-4 pb-0">Collaboration between VSSUT,Burla &amp; Skill Odisha&#45;2020</p>
-      <a href="https://youtu.be/jI4Egt5kMGs" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-      <a href="#why-us" class="about-btn scrollto">About Us</a>
-    </div>
-  </section><!-- End Intro Section -->
-
-  <main id="main">
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-xl-4 col-lg-5" data-aos="fade-up">
-            <div class="content">
-              <h3>What is Technology Business Incubator?</h3>
-              <p style="font-size: 0.8em;">
-                Technology Business Incubator (TBI) VSSUT Burla is a non-profit start-up incubator which aspires to
-                promote entrepreneurship in the state by nurturing and guiding the budding startups. Recognised as one
-                of the eminent TBIs in the region with great potential, it has been working tirelessly and persistently
-                to turn innovative ideas into successful startups. <span id="more" style="display: none;">Furthermore,
-                  it has collaborated with Dept of Science &amp; Technology, Dept of Biotechnology, National Innovation
-                  Foundation, and regarded foreign universities to stimulate an eclectic ecosystem conducive to
-                  innovation and accelerate entrepreneurial ventures. With the aim of producing a sustainable innovation
-                  ecosystem and entrepreneurial environment, TBI VSSUT focuses on boosting blooming startups and makes
-                  them ready for the competitive and ever-changing environment.</span>
-              </p>
-              <div class="text-center">
-                <span style="cursor: pointer;" id="morebutton" class="more-btn" onclick="show()">Learn More <i
-                    class="bx bx-chevron-right"></i></span>
-              </div>
-              <script>
-                function show() {
-                  document.getElementById("more").style.display = "block";
-                  document.getElementById("morebutton").style.display = "none";
-                }
-              </script>
+                </ul>
             </div>
-          </div>
-          <div class="col-xl-8 col-lg-7 d-flex">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>TBI in VSSUT,Burla</h4>
-                    <p style="font-size: 0.8em;">Since two years, TBI VSSUT is active in uplifting innovation and
-                      entrepreneurship in the region. Through the contacts with distinguished universities and
-                      industries,we have incubated many startups <span id="more1" style="display: none;"> Within this
-                        short period, our TBI has worked in the arena of Aerospace, Education and skill development,
-                        Agriculture, Healthcare and biotechnology, 3D printing and Robotics, and other Grassroot
-                        Innovations; </span></p>
-                    <div class="text-center">
-                      <!--                    <span style="cursor: pointer;" id="morebutton1" class="more-btn" onclick="show()">Learn More <i class="bx bx-chevron-right"></i></span>-->
+        </nav>
+
+        <!------ CAROUSEL SLIDER ------->
+
+        <header>
+            <div class="owl-carousel owl-theme slide_container" style="animation-duration: 1.5s">
+                <div class="item slide " style="animation-duration: 1.5s">
+                    <div class="slide-container">
+                        <div class="container">
+                            <div class="intro">
+                                <h1 class="" style="animation-duration: 1s">Hey there !!</h1>
+                                <h2 class="" style="animation-duration: 1.5s">I am <strong>Swaroop</strong>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img class="img1 " style="animation-duration:1.5s"
+                                src="assets/css/img/IMG_20200126_141436.jpg" alt="image 1">
+                        </div>
+                        <div class="btn_icons">
+                            <a class="btn button1 btn-light " href="#profile"
+                                style="animation-duration: 1.5s">Profile</a>
+                            <a class="btn button2 btn-outline-light " href="#contact"
+                                style="animation-duration: 1.5s">Contact Me</a>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Objectives</h4>
-                    <p style="font-size: 0.8em;">TBI VSSUT seeks to convert Odisha into a global hub for entrepreneurial
-                      ventures. We aim to promote research, innovation and entrepreneurship in the state and bridge the
-                      gap between an idea and its implementation.<span id="more2" style="display: none;">. We aim to
-                        inculcate the entrepreneurial mindset and problem solving attitude in the budding technocrats
-                        and initiate startup enterprises. Providing a sustainable and supportable environment for the
-                        techno-enthusiasts remains our motto. </span></p>
-                    <div class="text-center">
-                      <!--                    <span style="cursor: pointer;" id="morebutton2" class="more-btn" onclick="show()">Learn More <i class="bx bx-chevron-right"></i></span>-->
+                <div class="item slide " style="animation-duration: 1.5s">
+                    <div class="sliderContainer">
+                        <div class="container">
+                            <div class="heading">
+                                <h3 class="main_head ">I&#39;m a
+                                    student at VSSUT, Burla</h3>
+                            </div>
+                        </div>
+
+                        <div class="btn_icons2">
+                            <a class="btn button1 button3 btn-light " style="animation-delay: 6s" href="#">Download
+                                CV</a>
+                        </div>
                     </div>
-                  </div>
                 </div>
+            </div>
+        </header>
 
-                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Our Plan</h4>
-                    <p style="font-size: 0.8em;">VSSUT is encouraging students and teachers to promote innovation by
-                      taking measures like award for the Best Project out of the students’ final year project work<span
-                        id="more3" style="display:none;">interdisciplinary project works for product and process
-                        development,funding potential product oriented projects by TEQIP.</span></p>
-                    <div class="text-center">
-                      <!--                    <span style="cursor: pointer;" id="morebutton3" class="more-btn" onclick="show()">Learn More <i class="bx bx-chevron-right"></i></span>-->
+        <!------ PROFILE ------->
+        <section id="profile">
+            <div class="row justify-content-center">
+                <div class="col-md-10 heading-section text-center main-head" style="cursor: default;">
+                    <h2 class="mb-4"><strong>Profile</strong> </h2>
+                </div>
+            </div>
+            <div class="container profile_card " id="about-me" data-aos="fade-up">
+                <div class="cards">
+                    <div class="ds-top"></div>
+                    <div class="avatar-holder">
+                        <img src="assets/css/img/img1.jpg" alt="Swaroop">
                     </div>
-                  </div>
+                    <div class="name">
+                        <a href="https://github.com/alphaCoderR" target="_blank">Swaroop Kumar Sahu</a>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn">Skills</a>
+                    </div>
+                    <div class="profile-skill">
+                        <div class="icon"><i class=" ion ion-logo-html5"></i></div>
+                        <div class="icon"><i class="ion ion-logo-css3"></i></div>
+                        <div class="icon"><i class="ion ion-logo-javascript"></i></div>
+                        <div class="icon"><i class="ion ion-ios-camera"></i></div>
+                        <div class="icon"><i class="ion ion-ios-laptop"></i></div>
+                    </div>
                 </div>
 
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
-
-
-    <!-- ======= About Section ======= 
-    <section id="about" class="about section-bg">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-          </div>
-
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h4 data-aos="fade-up">About us</h4>
-            <h3 data-aos="fade-up">Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p data-aos="fade-up">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
-
-            <div class="icon-box" data-aos="fade-up">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Programs</h2>
-          <p style="margin-top: -15px;margin-bottom: 15px;">VSSUT,Burla for years has been encouraging its students to
-            persue innovation.</p>
-        </div>
-
-        <div class="row card-container">
-          <div class="card cards col-lg-5 col-md-5" data-aos="fade-up" style="margin-bottom: 3%;">
-            <img class="card-img-top" src="./assets/img/agriculture.jpg" alt="no image" height="250px">
-            <div class="card-body text-center">
-              <h3 class="program-heading ">Agro-Tech</h3>
-              <a href="./others/agro-tech.html">Know More</a>
-            </div>
-          </div>
-          <div class="space-eater" style="flex: 1;"></div>
-
-          <div class="card cards col-lg-5 col-md-5" data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 3%;">
-            <img class="card-img-top" src="./assets/img/space.jpg" alt="no image" height="250px">
-            <div class="card-body text-center">
-              <h3 class="program-heading">Space</h3>
-              <a href="./others/space.html">Know More</a>
-            </div>
-          </div>
-
-
-          <div class="card cards col-lg-5 col-md-5" data-aos="fade-up" data-aos-delay="200" style="margin-bottom: 2%;">
-            <img class="card-img-top" src="./assets/img/IOT-01.jpg" alt="no image" height="250px">
-            <div class="card-body text-center">
-              <h3 class="program-heading">IoT</h3>
-              <a href="./others/iot.html">Know More</a>
-            </div>
-          </div>
-
-          <div class="space-eater" style="flex: 1;"></div>
-          <div class="card cards col-lg-5 col-md-5" data-aos="fade-up" data-aos-delay="100" style="margin-bottom: 2%;">
-            <img class="card-img-top" src="./assets/img/Healthcare-01.jpg" alt="no image" height="250px">
-            <div class="card-body text-center">
-              <h3 class="program-heading">Healthcare</h3>
-              <a href="./others/healthcare.html">Know More</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    <!--End Services Section 
-
-    -->
-
-    <!-- ======= Facts Section ======= -->
-    <section id="facts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Numbers</h2>
-        </div>
-
-        <div class="row counters">
-
-          <div id="new" class="col-lg-3 col-6 text-center">
-            <span style="color: #DC143C" data-toggle="counter-up">12</span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">50</span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span style="color: #1e90ff" data-toggle="counter-up">104</span>
-            <p>Technologies</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span style="color: gold" data-toggle="counter-up">102</span>
-            <p>Innovators</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Facts Section -->
-    <style>
-    </style>
-    <!-- ======= Clients Section ======= -->
-    <section id="startups" class="startups">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Our Start&#45;Ups so far</h2>
-          <!--      <p style="margin-top: -15px;margin-bottom: 15px;">Click for details.</p>-->
-        </div>
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="2000">
-                  <img src="assets/img/homevery.png" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Homvery</h5>
-                    <p>Brief description.</p>
-                  </div>
+                <div class="about-card card">
+                    <div class="card-body">
+                        <div class="card-title about-card-title">
+                            <p>About Me</p>
+                        </div>
+                        <div class="card-subtitle about-card-subtitle">
+                            <p>A 20 years old, currently pursuing my Bachelor Of Technology degree from <strong>VSSUT,
+                                    Burla</strong>. I am a coding enthusiast and I have a deep interest in Ethical
+                                Hacking
+                                and Web Development. I prefer to play pc games and watch web series during my leisure
+                                time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-text about-card-text">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-horizontal-lg card-list"><span>Name :</span> <span
+                                    class="highlight-text">Swaroop Kumar Sahu</span></li>
+                            <li class="list-group-item list-group-horizontal-lg card-list"><span>Date of birth :</span>
+                                <span class="highlight-text">March 05, 2000</span></li>
+                            <li class="list-group-item list-group-horizontal-lg card-list"><span>Address :</span> <span
+                                    class="highlight-text">Mandar Bagicha Para, Bhawanipatna</span></li>
+                            <li class="list-group-item list-group-horizontal-lg card-list"><span>Pin code :</span> <span
+                                    class="highlight-text">766001</span></li>
+                            <li class="list-group-item list-group-horizontal-lg card-list"><span>Email :</span> <span
+                                    class="highlight-text">swaroopkumarsahu01@gmail.com</span></li>
+                            <li class="list-group-item list-group-horizontal-lg card-list"><span>Phone : </span> <span
+                                    class="highlight-text">7894958949</span></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="2000">
-                  <img src="assets/img/ioke%20motors.png" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Ioke Automotives</h5>
-                    <p>Brief description.</p>
-                  </div>
+            </div>
+        </section>
+
+
+        <!------ EDUCATION ------->
+        <section id="education">
+            <div class="container edu-container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 heading-section text-center main-head">
+                        <h2 class="mb-4"><strong>Education</strong> </h2>
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="2000">
-                  <img src="assets/img/ipsfri.png" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Ipsfri</h5>
-                    <p>Brief description.</p>
-                  </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-5 edu-body body1" data-aos="fade-right">
+                        <div class="line-1"></div>
+                        <h3 class="edu-heading text-center heading-section">Under&#45;Graduation</h3>
+                        <span class="date">2019 - Present</span>
+                        <div class="edu-text-block">
+                            <p class="edu-text">Veer Surendra Sai University Of Technology<br />Burla&#44; Odisha</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-2 col-lg-2"></div>
+
+                    <div class="col-sm-12 col-md-5 col-lg-5 edu-body body2 " data-aos="fade-left">
+                        <div class="line-1"></div>
+                        <h3 class="edu-heading text-center heading-section">Intermediate</h3>
+                        <span class="date">2016 - 2018</span>
+                        <div class="edu-text-block">
+                            <p class="edu-text">Gouri Shankar Residential English Medium School&#44;<br />Bhubaneswar
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="2000">
-                  <img src="assets/img/logo-1.png" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Navonmesh Prasar</h5>
-                    <p>Brief description.</p>
-                  </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-5 col-lg-5 edu-body body3 " data-aos="fade-right">
+                        <div class="line-1" id="body3-line"></div>
+                        <h3 class="edu-heading text-center heading-section">Matriculation</h3>
+                        <span class="date">2004 - 2016</span>
+                        <div class="edu-text-block">
+                            <p class="edu-text">Vimala Convent School<br />Bhawanipatna&#44;<br /> Kalahandi</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="2000">
-                  <img src="assets/img/output-onlinepngtools%20(20).webp" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>S.E.W</h5>
-                    <p>Brief description.</p>
-                  </div>
+            </div>
+        </section>
+
+
+        <!------ SKILLS ------->
+
+        <section id="skills">
+            <div class="row justify-content-center">
+                <div class="col-md-10 heading-section text-center main-head main_head" id="slills-head"
+                    data-aos="fade-in">
+                    <h2 class="mb-4"><strong>Skills</strong> </h2>
                 </div>
-                <div class="carousel-item" data-interval="2000">
-                  <img src="assets/img/site-logo.png" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Invent Grid</h5>
-                    <p>Brief description.</p>
-                  </div>
+            </div>
+            <div class="skills-container">
+                <div class="app-box" data-aos="fade-in" data-aos-delay="100">
+                    <div class="icon"><a href="#"><i class="ion ion-logo-html5"></i></a></div>
+                    <div class="icon"><a href="#"><i class="ion ion-logo-css3"></i></a></div>
+                    <div class="icon"><a href="#"><i class="ion ion-logo-javascript"></i></a></div>
+                    <div class="icon"><a href="#"><i class="ion ion-logo-nodejs"></i></a></div>
+                    <div class="icon"><a href="#"><i class="ion ion-logo-python"></i></a></div>
                 </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                <span style="background-color: #000;" class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                <span style="background-color: #000;" class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </div>
-    </section><!-- End Clients Section -->
+        </section>
 
-    <!-- ======= Values Section ======= 
-    <section id="values" class="values">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card" style="background-image: url(assets/img/values-3.jpg);">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Our Mission</a></h5>
-                  <p class="card-text">For the past few years students of VSSUT have been making some ground breaking innovations.Our mission is to establish VSSUT as the leading innovation center in Odisha and use the knowledge for the greater good of India.Skill Odisha can provide the boost to our students.</p>
-<!--                <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card" style="background-image: url(assets/img/values-1.jpg);">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Our Plan</a></h5>
-                  <p class="card-text">VSSUT is encouraging students and teachers to promote innovation by taking measures like award for the Best Project out of the students’ final year project work,interdisciplinary project works for product and process development,funding potential product oriented projects by TEQIP.</p>
-<!--                <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> End Values Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-
-        <div class="owl-carousel testimonials-carousel">
-
-          <div class="testimonial-item">
-            <!--            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">-->
-            <h3>Steve Jobs</h3>
-            <h4>Co founder of Apple</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Innovation distinguishes between a leader and a follower.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <!--            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">-->
-            <h3>Dean Kamen</h3>
-            <h4>Businessman</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Every once in a while, a new technology, an old problem, and a big idea turn into an innovation.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <!--            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">-->
-            <h3>Richard Branson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Business opportunities are like buses, there’s always another one coming.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <!--            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">-->
-            <h3>Abdul Kalam</h3>
-            <h4>Scientist &amp; former President</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Creativity is seeing the same thing but thinking differently.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <!--            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">-->
-            <h3>Narendra Modi</h3>
-            <h4>Politician</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Innovation is not merely a word or an event. It's an ongoing process. You can innovate only when you
-              understand a problem and try to find out its solution.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <!--            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">-->
-            <h3>Seth Godin</h3>
-            <h4>Writer</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              There’s no shortage of remarkable ideas, what’s missing is the will to execute them.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <!--
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title">
-          <h2 data-aos="fade-up">Portfolio</h2>
-          <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> End Portfolio Section 
--->
-
-    <section id="partners">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Our Partners</h2>
-        </div>
-        <div class="row justify-content-center">
-          <div class="gallery">
-
-            <ul>
-              <div class="row1">
-                <li data-aos="fade-up"><img src="assets/img/clients/client-1.png"></li>
-                <li data-aos="fade-up" data-aos-delay="70"><img src="assets/img/clients/client-2.png"></li>
-              </div>
-              <div class="row2">
-                <li data-aos="fade-up" data-aos-delay="140"><img src="assets/img/clients/client-3.png"></li>
-                <li data-aos="fade-up" data-aos-delay="210"><img src="assets/img/clients/client-4.png"></li>
-                <li data-aos="fade-up" data-aos-delay="280"><img src="assets/img/clients/client-5.png"></li>
-              </div>
-              <div class="row3">
-                <li data-aos="fade-up" data-aos-delay="350"><img src="assets/img/clients/client-6.png"></li>
-                <li data-aos="fade-up" data-aos-delay="420"><img src="assets/img/clients/client-7.png"></li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2 data-aos="fade-up">Team</h2>
-          <p data-aos="fade-up" style="margin-top: -15px;margin-bottom: 15px;">Team of dedicated faculty of VSSUT, Burla
-            guiding tthe students in the quest of innovation.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-icon.png" class="img-fluid" alt="picture 1">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+        <!------ PROJECTS ------->
+        <section id="projects">
+            <div class="container" style="display: block;">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 heading-section text-center main-head main_head" id="projects-head">
+                        <h2 class="mb-4"><strong>Projects</strong> </h2>
+                    </div>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Faculty 1</h4>
-                <span>Their Role</span>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-icon.png" class="img-fluid" alt="picture 2">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                <div class="row justify-content-center">
+                    <div class="col sub-head">
+                        <h4 class="sub-head-text text-center">Below are some of the projects I had worked on.</h4>
+                    </div>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Faculty 2</h4>
-                <span>Their Role</span>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-icon.png" class="img-fluid" alt="picture 3">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                <div class="projects-container">
+
+                    <div class="row project-body-1">
+
+                        <div class="col-sm-12 col-md-7 col-lg-7 project-card project-card-1" data-aos="fade-up">
+                            <div class="project-content">
+                                <h5 class="project-heading">Maze Runner</h5>
+                                <p class="project-text">The maze solving robot — also known as a micro mouse, is
+                                    designed to
+                                    find a path without any assistance or help. These types of autonomous mobile robots
+                                    can
+                                    be used in a wide variety of applications such as material handling, warehouse
+                                    management, pipe inspection, and bomb disposal.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-1 col-lg-1 space-eater"></div>
+                        <div class="project-body"></div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 project-card project-card-2" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="project-content">
+                                <h5 class="project-heading">Pico&#45;Sat</h5>
+                                <p class="project-text">A small satellite, miniaturized satellite, or smallsat is a
+                                    satellite of low mass and size, usually under 1.3 kg.These satellites are used for
+                                    collecting information of a specific target.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row project-body-2">
+                        <div class="col-sm-12 col-md-4 col-lg-4 project-card project-card-3" data-aos="fade-up">
+                            <div class="project-content">
+                                <h5 class="project-heading">Heal Assist</h5>
+                                <p class="project-text">Heal Assist is an app developed by a group of IIC members. This
+                                    app
+                                    main focus is to spread awareness about the global pandemic
+                                    <strong>covid-19.</strong>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-1 col-lg-1 space-eater"></div>
+
+                        <div class="col-sm-12 col-md-7 col-lg-7 project-card project-card-4" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="project-content">
+                                <h5 class="project-heading">VSLV Website</h5>
+                                <p class="project-text">VSLV, is a student initiative, which take on a herculean task of
+                                    developing an indigenous Sounding Rocket & PicoSAT, by venturing into Rocket
+                                    Science,
+                                    through a series of ten arduous missions.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row project-body-3">
+                        <div class="col-sm-12 col-md-7 col-lg-7 project-card project-card-5" data-aos="fade-up">
+                            <div class="project-content">
+                                <h5 class="project-heading">ToDo List</h5>
+                                <p class="project-text">This is a ToDo list app.This app is developed using the Express
+                                    framework. It can be used to keep track of important things. </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-1 col-lg-1 space-eater"></div>
+
+
+                        <div class="col-sm-12 col-md-4 col-lg-4 project-card  project-card-6" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="project-content">
+                                <h5 class="project-heading">TBI Website</h5>
+                                <p class="project-text">TBI VSSUT Burla is a non-profit start-up incubator which aspires
+                                    to
+                                    promote entrepreneurship in the state by nurturing and guiding the budding startups
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Faculty 3</h4>
-                <span>Their Role</span>
-              </div>
             </div>
-          </div>
+        </section>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-icon.png" class="img-fluid" alt="picture 4">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+        <!-- ---- CONTACT ME ----- -->
+        <section id="contact-me">
+            <div class="container" style="display: block;">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 heading-section text-center main-head main_head" id="projects-head">
+                        <h2 class="mb-4"><strong>Contact Me</strong> </h2>
+                    </div>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Faculty 4</h4>
-                <span>Their Role</span>
-              </div>
-            </div>
-          </div>
 
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-
-    <!-- ======= F.A.Q Section ======= 
-    <section id="faq" class="faq section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2 data-aos="fade-up">F.A.Q</h2>
-          <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
-                <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
-                <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
-                <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section> End F.A.Q Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2 data-aos="fade-up">Contact</h2>
-          <!--          <p data-aos="fade-up" style="margin-top: -10px;">You can contact us any time. You the form below to message us.</p>-->
-        </div>
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.2708391034384!2d83.90156731424685!3d21.497108885746616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a213da4ec28af2d%3A0xb33a5cc9af8c33c7!2sVeer%20Surendra%20Sai%20University%20of%20Technology!5e0!3m2!1sen!2sin!4v1584687510478!5m2!1sen!2sin"
-            frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="row justify-content-center">
-
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
-            <div class="info-box">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>VSSUT, Burla, Odisha 768018</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>tbivssut@gmail.com</p>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="info-box">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-xl-9 col-lg-12 mt-4">
-            <form
-              action="https://script.google.com/macros/s/AKfycbz_5OLwDx_FxMmgtp2HLAW5YXg7RnuGPm152psJV2USvvwBuLM/exec"
-              method="POST" role="form" class="php-email-form gform pure-form pure-form-stacked"
-              data-email="sauryaman123@gmail.com">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
+                <div class="row justify-content-center">
+                    <div class="col sub-head">
+                        <h4 class="sub-head-text text-center">Contact me if you like my work</h4>
+                    </div>
                 </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                    data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
+
+                <div class="form-container" data-aos="fade-up" style="display: flex;">
+                    <div class="form-box">
+                        <form method="POST">
+                            <div class="form-group" style="display: flex;">
+                                <input type="text" class="form-control" id="a" placeholder="First Name"
+                                    autocomplete="off">
+
+                                <input type="text" class="form-control" id="b" placeholder="Second Name"
+                                    autocomplete="off">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="c" placeholder="Email" autocomplete="off">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="d" placeholder="Leave a message for me"></textarea>
+                            </div>
+                            <button class="form-button" onclick="sendRes();" type="submit">Submit</button>
+                            <div class="response">
+                                <div class="icon success"><i style="color: green;" class="ion ion-md-thumbs-up"></i>
+                                </div>
+                                <div class="icon failure"><i style="color: red;" class="ion ion-md-thumbs-down"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required"
-                  data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <!--
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
--->
-              <div class="text-center"><button id="sub" type="submit">Send Message</button></div>
-            </form>
-            <div id="message" class="text-center" style="display: none;">Thank you for contacting us!!!</div>
-          </div>
-          <script>
-            document.getElementById("sub").addEventListener('submit', function () {
-              document.getElementById("message").style.display = "block";
-            })
+        </section>
 
-            function msg() {
-              document.getElementById("message").style.display = "block";
-            }
-          </script>
-        </div>
+        <!-- ---- FOOTER ----- -->
 
-      </div>
-    </section><!-- End Contact Section -->
+        <footer>
+            <div class="container">
+                <div class="link-text" data-aos="fade-in">
+                    <p>Connect with me on :-</p>
+                </div>
+                <div class="app-box" data-aos="fade-in">
+                    <div class="icon"><a href="https://github.com/alphaCoderR"><i class="ion ion-logo-github"></i></a>
+                    </div>
+                    <div class="icon"><a href="https://www.linkedin.com/in/swaroop-sahu-b60b901a0/"><i
+                                class="ion ion-logo-linkedin"></i></a></div>
+                    <div class="icon"><a href="https://www.facebook.com/swaroop.sahu.75/"><i
+                                class="ion ion-logo-facebook"></i></a></div>
+                    <div class="icon"><a href="https://twitter.com/SKS_2401"><i class="ion ion-logo-twitter"></i></a>
+                    </div>
+                </div>
 
-  </main><!-- End #main -->
+                <div class="footer-text">
+                    <p>This portfolio is made with <i style="color: red;" class="ion ion-md-heart"></i> by
+                        <strong>Swaroop</strong></p>
+                </div>
+            </div>
+        </footer>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
 
-          <div class="col-lg-6 col-md-6 footer-contact" style="text-align: center;justify-content: center;">
-            <a href="https://www.vssut.ac.in">
-              <h3 style="color: #0056b3;">VSSUT, Burla</h3>
-            </a>
-            <p>
-              Burla Road <br>
-              Burla,Sambalpur 768018<br>
-              India <br><br>
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <a>
-              <h3></h3>
-            </a><br>
-            <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> tbivssut@gmail.com<br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="container d-lg-flex py-4">
+    <!--      JAVASCRIPT FILES       -->
 
-      <div class="mr-lg-auto text-center text-lg-left">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Idea Innovation Cell</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by <a href="https://iic-vssut.org/" style="color: #010483;">Idea Innovation Club</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    <script src="vendors/js/jquery.min.js"></script>
+    <script src="vendors/js/owl.carousel.min.js"></script>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="vendors/js/bootstrap.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <!--
-  <script>jQuery(document).ready(function(){
-    $('.counter').counterUp({delay:10,
-    time:1000});
-    ]);</script>
--->
-  <script>
-    // jQuery counterUp (used in Facts section)
-    $('[data-toggle="counter-up"]').counterUp({
-      delay: 10,
-      time: 1000
-    });
-  </script>
-  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200
+        });
+    </script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <!--<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>-->
 </body>
 
 </html>
