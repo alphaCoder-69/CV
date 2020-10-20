@@ -42,17 +42,17 @@
 
 @media only screen and (max-width:576px) {
 
-/*  NAVIGATION  */
+    /*  NAVIGATION  */
 
- .navbar_pos {
+    .navbar_pos {
         height: 50vh;
         width: 40%;
-margin-left:auto;
-margin-right:auto
+        margin-left: auto;
+        margin-right: auto
     }
 
     .navigation_links {
-text-align:center;
+        text-align: center;
         padding-top: 0;
         border: 2px solid #151414;
         transition: all 0.3s;
@@ -66,63 +66,72 @@ text-align:center;
     .nav-item {
         margin-bottom: 10%;
     }
-   /*  SLIDE CONTAINER  */
+
+    /*  SLIDE CONTAINER  */
 
 
-   .slide {
-     background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.84)), url(bground.jpg);
-      background-position: center;
-       background-size: cover;
-}
- 
-  .img {
-        display: none;}
-.intro {
-      width: 60%;
-       margin-left: auto;
-     margin-right: auto;
- }
- 
-     .intro h1 {
-       font-size: 230%;
-    font-weight: 400;
-}
- 
- 
-     .btn_icons {
-       width: 80%;
-      margin: 10% auto;}
+    .slide {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.84)), url(bground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
 
-     .intro h2 {
+    .img {
+        display: none;
+    }
+
+    .intro {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro h1 {
+        font-size: 230%;
+        font-weight: 400;
+    }
+
+
+    .btn_icons {
+        width: 80%;
+        margin: 10% auto;
+    }
+
+    .intro h2 {
         font-size: 150%;
-       font-weight: 100;
-     padding: 2% 8%;}
+        font-weight: 100;
+        padding: 2% 8%;
+    }
 
-.button1:link,
+    .button1:link,
     .button1:visited {
-       width: 40%;}
+        width: 40%;
+    }
 
-.button1:hover,
-  .button1:active {
-background-color: transparent;
-   }
-.button2:link,
-     .button2:visited {
-      width: 40%;
-       padding-top: 2%
-}
+    .button1:hover,
+    .button1:active {
+        background-color: transparent;
+    }
 
-.btn_icons2 {
+    .button2:link,
+    .button2:visited {
+        width: 40%;
+        padding-top: 2%
+    }
+
+    .btn_icons2 {
         width: 110%;
-       margin: 15% auto;
-}
+        margin: 15% auto;
+    }
+
     /*  PROFILE  */
 
 
     .profile_card {
         width: 100%;
     }
-  .main-head{
+
+    .main-head {
         margin-top: 18%;
     }
 
@@ -150,7 +159,6 @@ background-color: transparent;
 
     .cards .name {
         margin: 30px 0;
-        margin-top:
     }
 
     .cards .name a {
@@ -203,14 +211,11 @@ background-color: transparent;
     /*  SKILLS  */
     #skills {
         height: 50vh;
-width:90vw;
-margin-left:2.5%;
+        width: 90vw;
+        margin-left: 2.5%;
         margin-bottom: 5%;
     }
 
-    #skills .main-head h2:after {
-        background-color: #ffdf00;
-    }
 
     .skills-container {
         width: 90%;
@@ -223,7 +228,7 @@ margin-left:2.5%;
 
     .skills-container .app-box .icon {
         font-size: 35px;
-margin-right:13%;
+        margin-right: 13%;
     }
 
     .skills-box {
@@ -238,7 +243,13 @@ margin-right:13%;
         font-size: 15px;
         letter-spacing: 1px;
     }
-    .project-card-1,.project-card-2,.project-card-3,.project-card-4,.project-card-5,.project-card-6{
+
+    .project-card-1,
+    .project-card-2,
+    .project-card-3,
+    .project-card-4,
+    .project-card-5,
+    .project-card-6 {
         margin-bottom: 10%;
     }
 
@@ -331,34 +342,50 @@ margin-right:13%;
     }
 
     .intro h2 {
-        padding: 2% 15%;
+        padding: 2% 0;
+        
     }
 
+    .main_head{
+        font-size: 200%;
+        margin-top: 20%;
+    }
     .btn_icons {
         width: 80%;
         margin: 15% 3%;
     }
 
+    .button1{
+        display:block;
+        margin-bottom: 10%;
+    }
+
     .button1:link,
     .buuon1:visited {
         padding-top: 1%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
     .button2:link,
     .button2:visited {
         padding-top: 1%;
+        width: 60%;
+        margin: 0 20%;
     }
 
     .btn_icons2 {
-        width: 130%;
-        margin-left: -10%
+        width: 80%;
+        margin: 20% 0 0 2%;
+        padding: 0;
     }
 
 
     /*  PROFILE  */
 
-    .main-head{
+    .main-head {
         margin-top: 20%;
     }
 
@@ -386,11 +413,10 @@ margin-right:13%;
 
     .cards .name {
         margin: 30px 0;
-        margin-top:
     }
 
     .cards .name a {
-        font-size: 25px;
+        font-size: 20px;
         padding-left: 20%;
         color: #ffb735;
     }
@@ -409,8 +435,9 @@ margin-right:13%;
     }
 
     .about-card-title {
-        width: 33%;
+        width: 100%;
         margin: 0 auto;
+        text-align: center;
         color: aliceblue;
         margin-bottom: -2%;
         font-weight: 400;
@@ -418,32 +445,40 @@ margin-right:13%;
 
     .about-card-subtitle {
         padding-top: 0;
+        text-align: center;
     }
 
+    .list-group li{
+        font-size: 18px;
+    }
     /*  EDUCATION  */
 
 
     .edu-container {
-        width: 90%;
+        width: 100%;
     }
 
     .edu-heading {
-        font-size: 120%;
+        font-size: 100%;
         margin-top: 0;
     }
 
     .edu-text {
         font-weight: 300;
+        font-size: 90%;
     }
 
+    .line-1{
+        margin-top: -40px;
+    }
     /*  SKILLS  */
     #skills {
         height: 50vh;
         margin-bottom: 5%;
     }
 
-    #skills .main-head h2:after {
-        background-color: #ffdf00;
+    #skills .main-head {
+        margin-top: 15%;
     }
 
     .skills-container {
@@ -459,6 +494,8 @@ margin-right:13%;
 
     .skills-container .app-box .icon {
         font-size: 25px;
+        margin-left:auto;
+        margin-right: auto;
     }
 
     .skills-box {
@@ -468,12 +505,21 @@ margin-right:13%;
 
 
     /*  PROJECTS  */
-
     .project-card-1 .project-text {
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 1px;
     }
-    .project-card-1,.project-card-2,.project-card-3,.project-card-4,.project-card-5,.project-card-6{
+
+    .project-text{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .project-card-1,
+    .project-card-2,
+    .project-card-3,
+    .project-card-4,
+    .project-card-5,
+    .project-card-6 {
         margin-bottom: 10%;
     }
 
