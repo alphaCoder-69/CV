@@ -42,139 +42,153 @@
 
 @media only screen and (max-width:576px) {
 
+/*  NAVIGATION  */
 
-    /*  NAVIGATION  */
-
-    .navbar_pos {
-        width: 20%;
-        margin: 0 auto;
-
-        height: 60vh;
+ .navbar_pos {
+        height: 50vh;
+        width: 40%;
+margin-left:auto;
+margin-right:auto
     }
 
     .navigation_links {
-        text-align: center;
+text-align:center;
+        padding-top: 0;
+        border: 2px solid #151414;
+        transition: all 0.3s;
     }
 
-
-    /*  SLIDE CONTAINER  */
-
-
-    .slide {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.84)), url(bground.jpg);
-        background-position: center;
-        background-size: cover;
+    .navigation_links:hover {
+        border: 2px solid #ffb735;
+        transform: translateY(0);
     }
 
-    .img {
-        display: none;
+    .nav-item {
+        margin-bottom: 10%;
     }
-
-    .intro {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .intro h1 {
-        font-size: 280%;
-        font-weight: 300;
+   /*  SLIDE CONTAINER  */
 
 
-    }
+   .slide {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.84)), url(bground.jpg);
+      background-position: center;
+       background-size: cover;
+}
+ 
+  .img {
+        display: none;}
+.intro {
+      width: 60%;
+       margin-left: auto;
+     margin-right: auto;
+ }
+ 
+     .intro h1 {
+       font-size: 230%;
+    font-weight: 400;
+}
+ 
+ 
+     .btn_icons {
+       width: 80%;
+      margin: 10% auto;}
 
-    .intro h2 {
+     .intro h2 {
         font-size: 150%;
-        font-weight: 100;
-        padding: 2% 8%;
-    }
+       font-weight: 100;
+     padding: 2% 8%;}
 
-    .btn_icons {
-        width: 60%;
-        margin: 10% auto;
-        margin-left: 15%;
-    }
-
-    .button1:link,
+.button1:link,
     .button1:visited {
-        width: 40%;
-    }
+       width: 40%;}
 
-    .button1:hover,
-    .button1:active {
-        background-color: transparent;
-    }
+.button1:hover,
+  .button1:active {
+background-color: transparent;
+   }
+.button2:link,
+     .button2:visited {
+      width: 40%;
+       padding-top: 2%
+}
 
-    .button2:link,
-    .button2:visited {
-        width: 40%;
-        padding-top: 2%
-    }
-
-    .btn_icons2 {
+.btn_icons2 {
         width: 110%;
-        margin: 15% auto;
-
-    }
-
-
+       margin: 15% auto;
+}
     /*  PROFILE  */
 
 
     .profile_card {
         width: 100%;
     }
+  .main-head{
+        margin-top: 18%;
+    }
+
+    #profile .main-head h2:after {
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .profile_card {
+        display: block;
+        margin-top: -3%;
+    }
+
+    .cards,
+    .cards .ds-top {
+        width: 100%;
+    }
+
+    .cards .avatar-holder {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px auto;
+    }
 
     .cards .name {
         margin: 30px 0;
-        margin-right: -15px;
+        margin-top:
     }
 
     .cards .name a {
-        font-size: 14px;
-        padding-left: 6px;
+        font-size: 25px;
+        padding-left: 20%;
+        color: #ffb735;
     }
 
-    .cards .button {
-        width: 80px;
-        margin-top: 40%;
-
+    .cards .name a:hover {
+        color: white;
     }
 
+    .cards .button,
     .profile-skill {
-        width: 40%;
-        display: block;
-        margin: 15% auto;
+        display: none;
     }
 
-    .icon {
-        margin-left: 0;
-        text-align: center;
-        margin-bottom: 22%;
-    }
-
-    .ion {
-        font-size: 180%;
+    .about-card {
+        margin-top: -7%;
     }
 
     .about-card-title {
-        width: 40%;
-        margin-bottom: 20px;
-
+        width: 33%;
+        margin: 0 auto;
+        color: aliceblue;
+        margin-bottom: -2%;
+        font-weight: 400;
     }
 
     .about-card-subtitle {
-        text-align: center;
-        font-size: 15px;
-        font-weight: 300;
+        padding-top: 0;
     }
-
 
     /*  EDUCATION  */
 
 
     .edu-container {
-        width: 70%;
+        width: 90%;
     }
 
     .edu-heading {
@@ -186,32 +200,97 @@
         font-weight: 300;
     }
 
-
     /*  SKILLS  */
+    #skills {
+        height: 50vh;
+width:90vw;
+margin-left:2.5%;
+        margin-bottom: 5%;
+    }
+
+    #skills .main-head h2:after {
+        background-color: #ffdf00;
+    }
 
     .skills-container {
-        width: 90vw;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 0 0 5%;
     }
 
-    .skills-container-1,
-    .skills-container-2 {
-        display: inline-block;
+    .skills-container .app-box {
+        width: 100%;
+    }
+
+    .skills-container .app-box .icon {
+        font-size: 35px;
+margin-right:13%;
+    }
+
+    .skills-box {
+        margin: 10% 15%;
+    }
+
+
+
+    /*  PROJECTS  */
+
+    .project-card-1 .project-text {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .project-card-1,.project-card-2,.project-card-3,.project-card-4,.project-card-5,.project-card-6{
+        margin-bottom: 10%;
+    }
+
+    /*  CONTACT-ME  */
+
+    .form-box {
+        width: 100%;
+        border-top-width: 2px;
+    }
+
+    .form-box .form-group {
+        width: 95%;
+    }
+
+    .form-button {
+        width: 35%;
+        margin-left: 32%;
+    }
+
+
+    /* Footer */
+
+    .link-text {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    footer .container .app-box {
         margin-left: auto;
         margin-right: auto;
-        width: 90vw;
-    }
-
-    .skills-container-1 {
         margin-bottom: 3%;
+        width: 40%;
     }
 
-    .skills-container .skills-card {
-        margin-bottom: 3%;
+
+    footer .container .app-box .icon {
+        font-size: 20px;
     }
 
-    .skills-container .skills-card:hover {
-        transform: translateY(-8px);
+    .footer-text p {
+        font-size: 0.8rem;
+        padding-bottom: 8%;
+    }
+
+    .response {
+        width: 10%;
+        margin-right: 20%;
+    }
+
+    .response .success,
+    .response .failure {
+        font-size: 25px;
     }
 
 }
