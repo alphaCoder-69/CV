@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Parichay Registeration</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form  id="redata" class="contact100-form validate-form gform"   method="post" data-email="iicmanagement.vssut@gmail.com" action="https://script.google.com/macros/s/AKfycbyAbH8IbnLhnDUGCGI1jGrrnkgB__TTmCVpWOSTqpuBZCwFxjj0/exec">
+                <div id="hig">
+				<span class="contact100-form-title">
+					Parichay Registeration
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Your Name</span>
+					<input class="input100" id="name" type="text" name="name" autocomplete="off" placeholder="Enter your name" required>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input"  >
+					<span class="label-input100">Email</span>
+					<input class="input100" id="email" type="text" name="email" autocomplete="off"  placeholder="Enter your email addess" required >
+					<span class="focus-input100"></span>
+				</div>
+                <div class="wrap-input100 validate-input"  >
+					<span class="label-input100">Phone No.</span>
+					<input class="input100" id="phn" type="number" name="phn" autocomplete="off"  placeholder="Enter your phn no." required >
+					<span class="focus-input100"></span>
+				</div>
+
+
+                
+				<div class="wrap-input100 input100-select">
+					<span class="label-input100">Role</span>
+					<div>
+						<select class="selection-2" id="role" name="service" required>
+							<option id="one" name="Leader">Leader</option>
+							<option id="two" name="Participant">Participant</option>
+						</select>
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+                <div class="wrap-input100 validate-input" data-validate="Field is required">
+					<span class="label-input100">Registeration No.</span>
+					<input class="input100" type="text" id="regd" name="regd no." required autocomplete="off" placeholder="Enter your Regd no.">
+					<span class="focus-input100"></span>
+				</div>
+  <center  style="display: none;" id="lod1" class="my-1"><img  src="images/throbber_13.gif" width="50px" height="50px"  class="img-fluid"></center>
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+                       
+						<div class="contact100-form-bgbtn"></div>
+                        
+						<button  onclick="lod();"   id="btn" class="contact100-form-btn">
+                           
+							<span>
+								Submit
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+                        
+					</div>
+				</div>
+                </div>
+                <div style="display:none" id="ll" class="thankyou_message">
+                    <h2> Thank you</h2><br>
+                       <h2 id="wpb1">Please join this Whatsapp group</h2><br>
+                    <a href="https://chat.whatsapp.com/CpudkXgBfpBKv0ZcP0k4qO" id="wpb" class="btn btn-success">Join</a>
+</div>
+			</form>
+            
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main1.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="js/form-submission-handler.js"></script>
+
+</body>
+</html>
